@@ -9,3 +9,8 @@ Si se quiere cambiar el tamaño de la figura se debe hacer click en el mismo bot
 En el dropdown menu se puede elegir la figura a dibujar.
 
 Dependiendo de qué figura se elija, se activarán las opciones de configuración correspondientes en la ventana de transformaciones.
+
+Para aplicar una transformación se deben cambiar los valores deseados y hacer click en el botón de la transformación deseada. Los valores que modifican las transformaciones están en la misma línea que el botón.
+
+El botón de "Borrar transformaciones" reinicia el visualizador y quita las transformaciones dibujadas.
+

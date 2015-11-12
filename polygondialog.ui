@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>406</width>
-    <height>377</height>
+    <width>411</width>
+    <height>375</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,7 +26,7 @@
     <string>5</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="configPoligono1">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -52,7 +52,7 @@
     <string>50</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="configPoligono2">
    <property name="geometry">
     <rect>
      <x>130</x>
@@ -328,7 +328,7 @@
     <string>200</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_8">
+  <widget class="QLabel" name="configArco2">
    <property name="geometry">
     <rect>
      <x>130</x>
@@ -354,7 +354,7 @@
     <string>90</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_9">
+  <widget class="QLabel" name="configArco1">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -367,7 +367,7 @@
     <string>Radio</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_10">
+  <widget class="QLabel" name="confingPoligono3">
    <property name="geometry">
     <rect>
      <x>260</x>
@@ -380,7 +380,7 @@
     <string>Config. Polígono</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_11">
+  <widget class="QLabel" name="configArco3">
    <property name="geometry">
     <rect>
      <x>260</x>
@@ -393,7 +393,7 @@
     <string>Config. Arco</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_12">
+  <widget class="QLabel" name="configPrismas">
    <property name="geometry">
     <rect>
      <x>130</x>
@@ -419,7 +419,7 @@
     <string>50</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_13">
+  <widget class="QLabel" name="configPrismas1">
    <property name="geometry">
     <rect>
      <x>260</x>

@@ -144,6 +144,16 @@ void PolygonDialog::updateValues(const QString& choice)
         ui->radius->setEnabled(false);
         ui->sides->setEnabled(true);
         ui->size->setEnabled(true);
+
+        ui->configArco1->setEnabled(false);
+        ui->configArco2->setEnabled(false);
+        ui->configPoligono1->setEnabled(true);
+        ui->configPoligono2->setEnabled(true);
+        ui->configPrismas->setEnabled(false);
+
+        ui->configArco3->setEnabled(false);
+        ui->confingPoligono3->setEnabled(true);
+        ui->configPrismas1->setEnabled(false);
     }
     else if(choice == "Arco")
     {
@@ -152,6 +162,16 @@ void PolygonDialog::updateValues(const QString& choice)
         ui->sides->setEnabled(false);
         ui->arcSize->setEnabled(true);
         ui->radius->setEnabled(true);
+
+        ui->configArco1->setEnabled(true);
+        ui->configArco2->setEnabled(true);
+        ui->configPoligono1->setEnabled(false);
+        ui->configPoligono2->setEnabled(false);
+        ui->configPrismas->setEnabled(false);
+
+        ui->configArco3->setEnabled(true);
+        ui->confingPoligono3->setEnabled(false);
+        ui->configPrismas1->setEnabled(false);
     }
     else if(choice == "Cubo")
     {
@@ -160,6 +180,16 @@ void PolygonDialog::updateValues(const QString& choice)
         ui->sides->setEnabled(false);
         ui->arcSize->setEnabled(false);
         ui->radius->setEnabled(false);
+
+        ui->configArco1->setEnabled(false);
+        ui->configArco2->setEnabled(false);
+        ui->configPoligono1->setEnabled(false);
+        ui->configPoligono2->setEnabled(false);
+        ui->configPrismas->setEnabled(true);
+
+        ui->configArco3->setEnabled(false);
+        ui->confingPoligono3->setEnabled(false);
+        ui->configPrismas1->setEnabled(true);
     }
     else if(choice == "Cono")
     {
@@ -168,6 +198,16 @@ void PolygonDialog::updateValues(const QString& choice)
         ui->sides->setEnabled(false);
         ui->arcSize->setEnabled(false);
         ui->radius->setEnabled(false);
+
+        ui->configArco1->setEnabled(false);
+        ui->configArco2->setEnabled(false);
+        ui->configPoligono1->setEnabled(false);
+        ui->configPoligono2->setEnabled(false);
+        ui->configPrismas->setEnabled(true);
+
+        ui->configArco3->setEnabled(false);
+        ui->confingPoligono3->setEnabled(false);
+        ui->configPrismas1->setEnabled(true);
     }
     else if(choice == "Prisma Triangular")
     {
@@ -176,6 +216,16 @@ void PolygonDialog::updateValues(const QString& choice)
         ui->sides->setEnabled(false);
         ui->arcSize->setEnabled(false);
         ui->radius->setEnabled(false);
+
+        ui->configArco1->setEnabled(false);
+        ui->configArco2->setEnabled(false);
+        ui->configPoligono1->setEnabled(false);
+        ui->configPoligono2->setEnabled(false);
+        ui->configPrismas->setEnabled(true);
+
+        ui->configArco3->setEnabled(false);
+        ui->confingPoligono3->setEnabled(false);
+        ui->configPrismas1->setEnabled(true);
     }
     else if(choice == "Prisma Rectangular")
     {
@@ -184,6 +234,16 @@ void PolygonDialog::updateValues(const QString& choice)
         ui->sides->setEnabled(false);
         ui->arcSize->setEnabled(false);
         ui->radius->setEnabled(false);
+
+        ui->configArco1->setEnabled(false);
+        ui->configArco2->setEnabled(false);
+        ui->configPoligono1->setEnabled(false);
+        ui->configPoligono2->setEnabled(false);
+        ui->configPrismas->setEnabled(true);
+
+        ui->configArco3->setEnabled(false);
+        ui->confingPoligono3->setEnabled(false);
+        ui->configPrismas1->setEnabled(true);
     }
     if(centered)
     {
